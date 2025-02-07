@@ -1,0 +1,95 @@
+{
+    "models": [
+      {
+        "model": "whisper-tiny",
+        "WER": 0.070,
+        "RTF": 0.297,
+        "Latency_s": 5.446,
+        "CPU_Memory_MB": 148.7,
+        "GPU_Memory_MB": 144.4,
+        "Speed": 3.37
+      },
+      {
+        "model": "whisper-base",
+        "WER": 0.000,
+        "RTF": 0.050,
+        "Latency_s": 0.922,
+        "CPU_Memory_MB": 18.3,
+        "GPU_Memory_MB": 277.6,
+        "Speed": 19.90
+      },
+      {
+        "model": "whisper-small",
+        "WER": 0.000,
+        "RTF": 0.074,
+        "Latency_s": 1.358,
+        "CPU_Memory_MB": 7.6,
+        "GPU_Memory_MB": 922.9,
+        "Speed": 13.52
+      },
+      {
+        "model": "whisper-medium",
+        "WER": 0.000,
+        "RTF": 0.131,
+        "Latency_s": 2.407,
+        "CPU_Memory_MB": 2.9,
+        "GPU_Memory_MB": 2913.9,
+        "Speed": 7.63
+      },
+      {
+        "model": "whisper-large-v2",
+        "WER": 0.000,
+        "RTF": 0.219,
+        "Latency_s": 4.019,
+        "CPU_Memory_MB": 213.9,
+        "GPU_Memory_MB": 6016.3,
+        "Speed": 4.57
+      },
+      {
+        "model": "wav2vec2-base",
+        "WER": 0.930,
+        "RTF": 0.023,
+        "Latency_s": 0.427,
+        "CPU_Memory_MB": 297.7,
+        "GPU_Memory_MB": 360.1,
+        "Speed": 42.96
+      },
+      {
+        "model": "wav2vec2-large",
+        "WER": 0.930,
+        "RTF": 0.040,
+        "Latency_s": 0.728,
+        "CPU_Memory_MB": 870.7,
+        "GPU_Memory_MB": 1203.4,
+        "Speed": 25.21
+      },
+      {
+        "model": "wav2vec2-english",
+        "WER": 1.000,
+        "RTF": 0.011,
+        "Latency_s": 0.202,
+        "CPU_Memory_MB": 1.50,
+        "GPU_Memory_MB": 364.1,
+        "Speed": 90.73
+      },
+      {
+        "model": "wav2vec2-xlsr-en",
+        "WER": 0.326,
+        "RTF": 0.022,
+        "Latency_s": 0.409,
+        "CPU_Memory_MB": 0.5,
+        "GPU_Memory_MB": 1204.5,
+        "Speed": 44.88
+      },
+      {
+        "model": "hubert-large",
+        "WER": 0.930,
+        "RTF": 0.022,
+        "Latency_s": 0.409,
+        "CPU_Memory_MB": 4.51,
+        "GPU_Memory_MB": 1204.5,
+        "Speed": 44.89
+      }
+    ]
+  }
+  
