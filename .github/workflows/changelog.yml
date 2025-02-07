@@ -22,7 +22,7 @@ jobs:
         uses: saadmk11/changelog-ci@v1.1.2
         with:
           changelog_filename: CHANGELOG.md
-          config_file: changelog-ci-config.json
+          config_file: .github/changelog-ci-config.json
           committer_username: 'ashutoshqp'
           committer_email: 'ashutosh@quoppo.xyz'
           release_version: ${{ github.event.inputs.release_version }}
