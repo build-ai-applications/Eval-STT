@@ -96,7 +96,7 @@ Your contributions help make **Eval-STT** the best open-source **Speech-to-Text 
 6. [ESPnet STT Recipe](https://espnet.github.io/espnet/recipe/st1.html)
 
 ## 📜 License
-Eval-STT is **open-source** under the **MIT License**. Use it freely and contribute to make it better! 🚀
+Eval-STT is **open-source** under the **Apache 2.0**. Use it freely and contribute to make it better! 🚀
 
 ## 📬 Contact Us
 For any questions, suggestions, or feature requests, **open an issue** or reach out to the maintainers! 💡
