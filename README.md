@@ -85,6 +85,16 @@ We welcome contributions! To add support for additional models:
 3. Update the evaluation notebook.
 4. Submit a pull request with a description of changes.
 
+## References
+1. [Artificial Analysis: Speech-to-Text](https://artificialanalysis.ai/speech-to-text)
+2. [NVIDIA NeMo ASR Metrics](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/scores.html)
+3. [IEEE STT Evaluation Paper](https://ieeexplore.ieee.org/document/9688073)
+4. [German STT Evaluation GitHub](https://github.com/domcross/german-stt-evaluation)
+5. [Coqui-AI STT Models](https://github.com/coqui-ai/STT-models/releases)
+6. [ESPnet STT Recipe](https://espnet.github.io/espnet/recipe/st1.html)
+
+
+
 ## License
 This repository is licensed under the MIT License.
 
