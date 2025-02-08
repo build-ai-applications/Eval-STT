@@ -36,8 +36,8 @@ These models cover a diverse range of architectures optimized for accuracy and e
 ## How to Use
 ### 1. Clone the Repository
 ```sh
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/build-ai-applications/Eval-STT/edit/feat-initial-release/README.md
+cd Eval-STT
 ```
 
 ### 2. Install Dependencies
