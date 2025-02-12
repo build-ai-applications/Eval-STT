@@ -1,0 +1,9 @@
+torch 
+torchaudio 
+psutil 
+gputil 
+transformers 
+jiwer 
+datasets 
+openai-whisper 
+pynvml

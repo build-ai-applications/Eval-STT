@@ -1,0 +1,29 @@
+name: Changelog CI
+
+on:
+  pull_request:
+    types: [ opened ]
+
+  workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'Set Release Version'
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository
+      - uses: actions/checkout@v2
+
+      - name: Run Changelog CI
+        uses: saadmk11/changelog-ci@v1.1.2
+        with:
+          changelog_filename: CHANGELOG.md
+          config_file: .github/changelog-ci-config.json
+          committer_username: 'ashutoshqp'
+          committer_email: 'ashutosh@quoppo.xyz'
+          release_version: ${{ github.event.inputs.release_version }}
+          github_token: ${{ secrets.PAT }}
